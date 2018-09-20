@@ -1,0 +1,125 @@
+	
+	Czym jest Rabbit Doubt?
+
+	
+  W Rabbit Doubt gracz przejmuje kontrole nad krolikarnia skladajaca sie 
+  z grupy 10 do 45 osobnikow. Czesc z nich w rzeczywistosci jest wilkami,
+  ktore w ciagu dnia udaja niewinne kroliki, po zmroku zas przyjmuja swa 
+  prawdziwa postac. Kazdej nocy wilki zaspokajaja swoj glod zagryzajac 
+  i pozerajac spiace kroliki. Zadaniem gracza jest wykrycie i zabicie 
+  wszystkich wilkow, zanim bedzie za pozno.
+
+
+  W kazdej turze gracz dostaje do wykorzystania piec ruchow. Sterowanie 
+  stadem odbywa sie za pomoca komend podstawowych i dodatkowych. Poprawne 
+  uzycie tych pierwszych zawsze kosztuje jeden ruch. Komendy dodatkowe sa 
+  darmowe i mozna uzywac ich dowolna ilosc razy podczas jednej tury.
+
+
+  Rozkazy wydaje sie naciskajac na klawiaturze odpowiedni klawisz i 
+  podajac numer krolika. Wszystkie komendy podane zostaly w jezyku 
+  angielskim, dzieki temu sterowanie stadem jest duzo prostsze 
+  i bardziej intuicyjne.
+end.
+
+    Komendy podstawowe:
+
+
+      [K]ill rabbit # - zabij krolika:
+        Martwy krolik zostanie zaznaczony na czerwono.
+
+      [I]solate rabbit # - Izoluj krolika:
+        Zamkniety krolik nie zostanie pozarty, a jesli jest wilkiem, 
+        nie bedzie mogl nikogo pozrec. Jesli zabijesz wyizolowanego krolika,
+        jego cialo pozostanie tam dopoki go nie usuniesz.
+
+      [F]ree rabbit - Uwolnij wyizolowanego krolika:
+        Komende nalezy potwierdzic enterem, lub klawiszem y. 
+        Zrezygnowac mozna za pomoca klawiszy esc, n i backspace.
+
+      [M]ove  rabbit # - przenies krolika:
+        Podczas rozgrywki mozesz utworzyc drugie stado i przeniesc do niego 
+        czesc krolikow. Jesli po komendzie podasz jedna wartosc, przeniesiesz 
+        krolika o podanym numerze. Podajac dwie wartosci wyznaczysz zakres 
+        krolikow do przeniesienia do przeciwnego stada.
+end.
+
+    Komendy dodatkowe:
+
+      [B]lame rabbit # - oznacz krolika:
+        Oznaczenie krolika nie ma wplywu na przebieg rozgrywki, sluzy jedynie
+        zwiekszeniu czytelnosci ekranu gry. Tak samo jak w przypadku Move, po
+        komendzie Blame mozna podac pojedynczego krolika lub wyznaczyc zakres.
+
+      [C]lear rabbit # X - oczysc krolika:
+        Clear po prostu cofa operacje Blame. Podobnie jak w przypadku Blame, 
+        mozna podac jednego krolika, lub wyznaczyc caly zakres.
+	
+      [R]emove dead bodies - usun martwe kroliki:
+        Komenda ta zwieksza czytelnosc ekranu stada. Jesli uzyjesz 
+        komendy remove, gdy w izolatce znajdowal sie bedzie martwy krolik, 
+        jego cialo zostanie usuniete w ramach akcji darmowej, 
+        bez koniecznosci wczesniejszego uwalniania go. 
+        Komende nalezy potwierdzic enterem, lub klawiszem y. 
+        Zrezygnowac mozna za pomoca klawiszy esc, n i backspace.
+
+      [E]nd turn - zakoncz dzien i przejdz do raportu.
+end.
+
+    Zasady ogolne [1] :
+
+	
+ - Ilosc wilkow jest losowa, chociaz zalezy tez od wielkosci stada
+
+ - Za dnia wilki zachowuja sie zupelnie jak kroliki 
+   i reaguja na twoje rozkazy.
+
+ - Kazdej nocy jeden wilk zjada jednego krolika.
+
+ - Wilk zjadaja kroliki tylko w tym stadzie, w ktorym obecnie sie znajduje.
+
+ - Wilk nigdy nie zje innego wilka.
+
+ - Jesli wilk nie ma mozliwosci zjedzenia prawdziwego krolika, gloduje.
+
+ - W izolatce moze znajdowac sie na raz tylko jeden krolik. 
+
+ - Wilk, ktory siedzi w izolatce nie moze nikogo zagryzc.
+
+ - Krolik, ktory siedzi w izolatce nie moze zostac zjedzony.
+end.
+
+    Zasady ogolne [2] :
+	
+	
+ - Kroliki najlepiej czuja sie w duzej grupie. Aby utworzyc nowe stado 
+   potrzeba minimum 5 krolikow.
+  
+ - Jesli w efekcie jakiegos rozkazu w stadzie pozostanie mniej niz 5 krolikow,
+   zwierzatka uciekna z niego i wroca do towarzyszy.
+  
+ - Gra upomni Cie, jesli bedziesz probowal stworzyc nowe stado z mniej niz 5
+   krolikow, jesli jednak w efekcie nieprzemyslanego rozkazu rozbijesz stado
+   (np. przenoszac, lub zabijajac kilka krolikow z malego stada), kroliki 
+   uciekna, a Ty stracisz jeden ruch.
+
+ - Martwe kroliki zostaja zaznaczone na czerwono.
+
+ - Oznaczone kroliki maja kolor zolty.
+
+ - Martwe kroliki nie raguja na komendy.
+
+ - Jesli wydasz rozkaz dla zakresu krolikow, martwe kroliki zostana pominiete.
+end.
+
+    Zasady ogolne [3] :
+	
+	
+ - Wygrywasz, jesli wszystkie wilki zostana zabite.
+
+ - Przegrywasz, jesli ponad polowa stada straci zycie 
+  (wilki sa liczone jako czesc stada).
+
+ - Remis jest wtedy, gdy w ostatniej turze gry 
+   spelnisz oba powyzsze warunki.
+end.
